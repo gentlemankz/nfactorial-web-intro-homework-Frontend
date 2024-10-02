@@ -105,7 +105,8 @@ body {
     background-color: blue;
    }
 
-     /* Row8 */
+     /* Row8. Эти методы также хороши с тем, что
+     orange фиксированно будет, даже на мобильном */
    .orangeEightInside{
     width:80px;
     background-color: orange;
