@@ -1,0 +1,440 @@
+@font-face {
+    font-family: KanitMedium;
+    font-style: normal;
+    font-weight: 500;
+    src:local("Kanit"),url("fonts/Kanit-Medium.woff") format("woff");
+}
+@font-face {
+    font-family: Inter;
+    src:local("Inter"),url("fonts/Inter-VariableFont_opsz\,wght.woff") format("woff");
+}
+@font-face {
+    font-family: InterBold;
+    font-style: normal;
+    src:local("InterBold"),url("fonts/Inter_24pt-Bold.woff") format("woff");
+}
+@font-face {
+    font-family: InterMedium;
+    font-style: normal;
+    src:local("InterMedium"),url("fonts/Inter_24pt-Medium.woff") format("woff");
+}
+@font-face {
+    font-family: KanitBold;
+    font-style: normal;
+    src:local("Inter"),url("fonts/Kanit-Bold.woff") format("woff");
+}
+body {
+    background-color: #F1F1F1;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 80px 0 80px;
+
+    font-family: KanitMedium;
+    font-size: 14px;
+
+    color: #081E34;
+}
+.header * {
+    font-family: inherit;
+    color: inherit;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    font-size: 18px;
+}
+.magnifier {
+    width: 19px;
+    height: 22px;
+}
+.getStarted {
+    width: 102px;
+    height: 38px;
+    background-color: rgba(8, 30, 52, 0.12);
+    border-radius: 100px;
+    border: 0;
+}
+.menu-nav {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.menu-nav a {
+    text-decoration: none;
+}
+.description {
+    display: flex;
+    justify-content:space-around;
+    align-items: flex-start;
+    gap: 100px;
+    padding: 100px 0px 100px 0px;
+}
+.info-description {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+.description-title {
+    font-family: KanitBold;
+    font-weight: 700;
+    font-size: 54px;
+    color: #000000;
+    margin: 0;
+
+    line-height: 64px;
+    letter-spacing: 0%;
+}
+.description-paragraph {
+    font-family: InterMedium;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+}
+.description-btn {
+    width: 144px;
+    height: 50px;
+    color: #FFFFFF;
+    background-color: #712FFF;
+    border-radius: 100px;
+    border: 0;
+
+    font-family: InterMedium;
+    font-weight: 500;
+    font-size: 14px
+}
+
+.descriptionImage {
+    position: relative;
+    width: 619px;
+    height: 420px;
+    border-radius: 32px;
+}
+.dollarImage {
+    position: absolute;
+    right: 380px;
+    width: 139px;
+    height: 181px;
+}
+.fireImage {
+    position: absolute;
+    right: 100px;
+    top: 350px;
+    width: 148px;
+    height: 172px;
+}
+.steps {
+    width: 100%;
+    height: 562px;
+    background-color: #E1DEE7;
+    border-radius: 32px;
+
+}
+.steps-details {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 86px;
+    padding: 100px 80px 100px 80px;
+}
+.details-text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 12px;
+}
+.details-paragraph {
+    font-family: Inter;
+    font-size: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0%;
+}
+.details-h2 {
+    font-family: KanitBold;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 56px;
+    margin: 0;
+    color: #000000;
+}
+.details-steps {
+    height: 186px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+   
+}
+.details-steps1, .details-steps2, .details-steps3 {
+    width: 400px;
+    height: 74px;
+}
+.details-steps1 {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+.details-steps2 {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+.details-steps3 {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+.steps1-text {
+    display: flex;
+    flex-direction: column;
+}
+.steps2-text {
+    display: flex;
+    flex-direction: column;
+}
+.steps3-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.steps1-h3, .steps2-h3, .steps3-h3{
+    font-family: InterBold, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    margin: 0;
+}
+.steps1-paragraph, .steps2-paragraph, .steps3-paragraph {
+    font-family: InterMedium, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.details-steps2 {
+    display: flex;
+    flex-direction: column;
+}
+.details-steps3 {
+    display: flex;
+    flex-direction: column;
+}
+.imgage-steps1 {
+    width: 35px;
+    height: 64px;
+}
+.imgage-steps2 {
+    width: 48px;
+    height: 64px;
+}
+.imgage-steps3 {
+    width: 48px;
+    height: 64px;
+}
+.search {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 32px;
+    margin: 0;
+    padding: 100px 80px 100px 80px;
+    background-color: #F1F1F1;
+}
+.search-h2 {
+    font-family: KanitBold;
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 64px;
+    margin: 0;
+}
+.search-paragraph {
+    font-family: InterMedium;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+}
+.search-form {
+    display: flex;
+    gap: 32px;
+}
+.search-wrapper {
+    width: 619px;
+    height: 50px;
+    display: flex;
+    border: 1px solid rgb(225, 222, 231);
+    border-radius: 12px; 
+    background: rgb(255, 255, 255);
+}
+.search-input-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 14px 75px 14px 13px;
+
+}
+.search-icon {
+    width: 24px;
+    height: 24px;
+}
+.search-input {
+    width: 495px;
+    border: 0;
+    font-family: InterMedium;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.2);
+}
+.search-btn {
+    width: 106px;
+    height: 50px;
+    color: #FFFFFF;
+    background-color: #712FFF;
+    border-radius: 100px;
+    border: 0;
+
+    font-family: InterMedium;
+    font-size: 14px;
+    font-weight: 500px;
+    text-align: center;
+}
+.cv-submission {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 128px;
+    padding: 64px 80px 64px 80px;
+    background-color: #F1F1F1;
+}
+.cv-image-main {
+    position: relative;
+}
+.cvImage{
+    width: 700px;
+    height: 467px;
+    border-radius: 24px;
+}
+.starImage {
+    position: absolute;
+    width: 97px;
+    height: 94px;
+    left: 240px;
+    top: 35px;
+    
+}
+.lightImage {
+    position: absolute;
+    width: 87px;
+    height: 144px;
+    left: 22px;
+    top: 150px;
+}
+.cv-upload {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 32px;
+}
+.cv-title {
+    font-family: KanitBold;
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 56px;
+    color:#000000;
+    margin: 0;
+}
+.cv-paragraph {
+    width: 495px;
+    font-family: InterMedium;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+}
+.upload-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+    width: 114px;
+    height: 50px;
+    background-color: #712FFF;
+    border: 0;
+    border-radius: 100px;
+
+    color: #FFFFFF;
+    font-family: InterMedium;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+}
+.upload-icon{
+    width: 18px;
+    height: 18px;
+}
+.footer {
+    width: 100%;
+    height: 172px;
+    border-radius: 32px 32px 0px 0px; 
+    background: rgb(255, 255, 255);
+}
+.footer-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    gap: 32px;
+    padding: 32px 80px 32px 80px;
+}
+.footer-main {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 105px;
+}
+.footer-nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+    padding-right: 80px;
+}
+.footer-nav a {
+    font-family: InterMedium;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    color: rgb(8, 30, 52);
+    text-decoration: none;
+}
+.instagram-icon {
+    width: 24px;
+    height: 24px;
+}
+.twitter-icon {
+    width: 24px;
+    height: 24px;
+}
+.footer-credits {
+    color: rgba(8, 30, 52, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.footer-credits a{
+    color: rgba(8, 30, 52, 0.5);
+}
+.footer-author {
+    font-family: InterMedium;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    color: rgb(8, 30, 52);
+}
