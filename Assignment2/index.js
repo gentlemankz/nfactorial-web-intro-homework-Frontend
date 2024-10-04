@@ -6,12 +6,12 @@ const theFirstBranch = false;
 const discount = null;
 let kidsClothes;
 
-const store = {
-  founder: founder,
-  clothesNumber: clothesNumber,
-  theFirstBranch: theFirstBranch,
-  discount: discount,
-  kidsClothes,
+const store = { 
+  founder, 
+  clothesNumber, 
+  theFirstBranch, 
+  discount, 
+  kidsClothes 
 };
 
 //добавление
