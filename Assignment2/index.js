@@ -1,14 +1,12 @@
-//Собственный магазин
-
 const storeName = "Nstyle";
 
-let founder = "Shynggys";
-let clothesNumber = 1000;
-let theFirstBranch = false;
-let discount = null;
+const founder = "Shynggys";
+const clothesNumber = 1000;
+const theFirstBranch = false;
+const discount = null;
 let kidsClothes;
 
-let store = {
+const store = {
   founder: founder,
   clothesNumber: clothesNumber,
   theFirstBranch: theFirstBranch,
@@ -27,13 +25,13 @@ console.log(store.newShoes);
 //удаление
 delete store.newShoes;
 
-// через двойные скобки: добавление
+// через двойные скобки: удаление
 delete store["theFirstBranch"];
 console.log(store);
 
 //Работа с объектами
 
-let vehicle = {};
+const vehicle = {};
 
 vehicle.brandName = "Mercedes";
 vehicle["model"] = ["S class"];
@@ -46,7 +44,7 @@ console.log(vehicle);
 
 //Работа с перебором свойств в объектах
 
-let salaries = {
+const salaries = {
   Aroo: 100,
   Dalida: 160,
   Samat: 130,
